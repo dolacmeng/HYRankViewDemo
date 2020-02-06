@@ -14,6 +14,7 @@
 		FB42593323EBEDBF00D09345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB42593223EBEDBF00D09345 /* Assets.xcassets */; };
 		FB42593623EBEDBF00D09345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB42593423EBEDBF00D09345 /* LaunchScreen.storyboard */; };
 		FB42593923EBEDBF00D09345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB42593823EBEDBF00D09345 /* main.m */; };
+		FB42594623EBEE2900D09345 /* HYRankView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB42594523EBEE2900D09345 /* HYRankView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		FB42593523EBEDBF00D09345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB42593723EBEDBF00D09345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB42593823EBEDBF00D09345 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB42594423EBEE2900D09345 /* HYRankView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYRankView.h; sourceTree = "<group>"; };
+		FB42594523EBEE2900D09345 /* HYRankView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYRankView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		FB42592523EBEDBD00D09345 /* HYRankViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FB42594023EBEDD000D09345 /* HYRankView */,
 				FB42592623EBEDBD00D09345 /* AppDelegate.h */,
 				FB42592723EBEDBD00D09345 /* AppDelegate.m */,
 				FB42592923EBEDBD00D09345 /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				FB42593823EBEDBF00D09345 /* main.m */,
 			);
 			path = HYRankViewDemo;
+			sourceTree = "<group>";
+		};
+		FB42594023EBEDD000D09345 /* HYRankView */ = {
+			isa = PBXGroup;
+			children = (
+				FB42594423EBEE2900D09345 /* HYRankView.h */,
+				FB42594523EBEE2900D09345 /* HYRankView.m */,
+			);
+			path = HYRankView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +161,7 @@
 			files = (
 				FB42592E23EBEDBD00D09345 /* ViewController.m in Sources */,
 				FB42592823EBEDBD00D09345 /* AppDelegate.m in Sources */,
+				FB42594623EBEE2900D09345 /* HYRankView.m in Sources */,
 				FB42593923EBEDBF00D09345 /* main.m in Sources */,
 				FB42592B23EBEDBD00D09345 /* SceneDelegate.m in Sources */,
 			);
