@@ -1,3 +1,14 @@
+
+## 介绍
+
+排序按钮，使用Core Graphic绘制，可以指定颜色、大小、字体等：
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200206162022739.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RvbGFjbWVuZw==,size_16,color_FFFFFF,t_70)
+
+使用场景如下：
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200206161835674.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2RvbGFjbWVuZw==,size_16,color_FFFFFF,t_70)
+
 ## 1.使用方法
 将HYRankView.h和HYRankView.m拖入工程。
 然后使用如下代码，即可快速添加一个名称为价格的排序按钮
